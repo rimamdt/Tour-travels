@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(59, 241, 211); */
+    background: url(https://images.wallpaperscraft.com/image/single/house_valley_mountains_1312718_1366x768.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.wrapper {
+    width: 420px;
+    background: none;
+    color: yellow;
+    border-radius: 10px;
+    padding: 20px 40px;
+    background: url(https://img.freepik.com/free-photo/purple-bokeh-digital-business-background_53876-104055.jpg?semt=ais_hybrid);
+    /* background-color: yellow; */
+    background-repeat: no-repeat;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: yellow;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: yellow;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+
+
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(229, 245, 10);
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.wrapper.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: black;
+    margin-right: 4px;
+}
+
+.remember-forgot a {
+    color: black;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.remember-forgot input::placeholder {
+    color: yellow;
+}
+
+.wrapper.btn {
+    /* width: 25%;
+    height: 45px; */
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.signup-link {
+    font-size: 14px;
+    text-align:end;
+    margin: 10px
+    
+}
+
+.signup-link p a {
+    color: lightblue;
+    text-decoration: none;
+    /* font-weight: 600; */
+    text-decoration: underline;
+}
+
+.signup-link p a:hover {
+    color: red;
+}
+
+/* .inputStyle::placeholder {
+    
+
+} */
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:('https://media.istockphoto.com/id/1257851030/photo/trail-runners-ascend-high-mountain-ridge.webp?a=1&b=1&s=612x612&w=0&k=20&c=BWnJOpGQpau8eyvopiUCWNfiycsDmZIncgljM4SWc8o=')no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.wrapper{
+    width: 400px;
+    background: transparent;
+    border:2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color:rgb(14, 2, 2);
+    border-radius: 1px;
+    padding: 20px 40px ;
+
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align:center;
+}
+.wrapper .input-box {
+    position:relative;
+    width:100%;
+    height:10%;
+    margin: 30px 0; 
+}
+
+.input-box input {
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    border:2px solid rgba(255,255,255, .2);
+    border-radius: 50px;
+    font-size: 16px;
+    color:#0f0e0e;
+    padding: 20px 45px 20px 20px;
+}
+ 
+.input-box input::placeholder{
+    color:#080808;
+}
+
+.input-box i {
+    position:absolute;
+    right:20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display:flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+ accent-color:#1a1515;
+ margin-right: 3px;
+
+}
+
+.remember-forgot a {
+    color:#0e0b0b;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height:45px;
+    background:#912828;
+    border : none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor:pointer;
+    font-size: 16px;
+    color:rgb(10, 9, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.wrapper .signup-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+ 
+.signup-link  p a {
+    color:#4b0505;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-link p a{
+text-decoration: underline;
+} */
